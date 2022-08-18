@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/pexels-math-90946.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header >
+      <section  >
+  
+      </section>
+      <!-- Aqui se encuentra el menu inicio , por la razon de que no es necesario ir de inicio a inicio 
+          por su redundancia no tiene mapeada su ruta , ya que estaria saliendo de la pagina
+          para volver a entrar a si misma (algo de lo que se encarga el boton de recargar pagina) -->
+      
+    </header>
+    <nav  class="upDownBorders" >
+        
+      <ul >
+      
+      <li class= " menuTab listElementsAlignment whiteText"><h2>Menu</h2></li>
+      
+     <div class="Items">
+      <div class="firstItems">
+       <li class="liMargin"><a href="../index.html">Inicio</a></li>
+       <li class="liMargin"><a href="products.html">Productos</a></li>
+        <li class="liMargin"><a href="contact.html">Contacto</a></li>
+      </div>
+        <div class="secondItems">
+        <li class="liMargin" ><a href="frecuently_asked.html">Preguntas Frecuentes</a></li>
+        <li class="liMargin"><a href="register.html">Registro</a></li>
+      </div>
+    </div>
+    </div>
+      </ul>
+      
+    </nav>
+       
+     
+     <!-- Main -->
+    <main class="contactMain">
+      <h1>Contacto</h1>
+
+      <form class="formulario">
+        <!-- tanto los labels como los input no tiene id ya que  aun no usamos javascript -->
+       
+        <label >Nombre y apellido</label>
+        <input class="textInput roundborder" type="text" placeholder="Juan Perez" />
+     
+      
+        <label>Email</label>
+        <input  class="textInput roundborder" type="email" placeholder="Leer_Chainsaw_Man@gmail.com" />
+      
+        <!-- Directamente en vez de usar in imput usè un text area que es mas idoneo para un mensaje
+        ya que las etiquetas vistas en clase se encuentran en el email , nombre ,submit, etc -->
+      
+        <textarea class="roundborder" name="Mensaje" cols="30" rows="10"></textarea>
+      
+       
+        <input class="submit roundborder" type="submit" />
+       
+        <!-- Aqui aproveché que es posible asignar un valor el boton para que sea mas coherente con el formulario a crear -->
+        <input  class="reset roundborder" type="reset" value="Borrar texto" />
+    
+      </form>
+      
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/sBspSJWRT2E"
+        title="YouTube video player"
+        frameborder="0"
+        allow=" encrypted-media"
+        allowfullscreen
+      ></iframe>
+    </main>
+    
+<!-- footer -->
+<footer class="upDownBorders">
+  <div class="whiteText  footerAlignment"> 
+  <span >Creado por Hernan Escudero | </span>
+  <span > 2022 |</span>
+  <span > Para Coderhouse.</span>
+  </div>
+  </footer>
+  </body>
+</html>
