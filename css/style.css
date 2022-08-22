@@ -11,7 +11,8 @@
 /* GRIDGLOBAL (este es el grid que estructura toda la pagina) LA MEDIA QUERY ESTA AL FIAL DEL ARCHIVO*/
 body {
   background-color: #fff;
-  
+ 
+  background: radial-gradient(circle, #fff 50%, rgb(231, 217, 208) 90%);
   font-family: "Montserrat", sans-serif;
 }
 .bodyAsContainer{
