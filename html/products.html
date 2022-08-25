@@ -1,87 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/pexels-math-90946.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Productos</title>
-  </head>
-  <body>
-    <!-- Header y menu -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=yes"
+    />
 
-    <header>
-      <section></section>
-      <!-- Aqui se encuentra el menu inicio , por la razon de que no es necesario ir de inicio a inicio 
-        por su redundancia no tiene mapeada su ruta , ya que estaria saliendo de la pagina
-        para volver a entrar a si misma (algo de lo que se encarga el boton de recargar pagina) -->
-    </header>
-    <nav  class="upDownBorders" >
-        
-      <ul >
-      
-      <li class= " menuTab listElementsAlignment whiteText"><h2>Menu</h2></li>
-      
-     <div class="Items">
-      <div class="firstItems">
-       <li class="liMargin"><a href="../index.html">Inicio</a></li>
-       <li class="liMargin"><a href="products.html">Productos</a></li>
-        <li class="liMargin"><a href="contact.html">Contacto</a></li>
-      </div>
-        <div class="secondItems">
-        <li class="liMargin" ><a href="frecuently_asked.html">Preguntas Frecuentes</a></li>
-        <li class="liMargin"><a href="register.html">Registro</a></li>
-      </div>
-    </div>
-    </div>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contacto</title>
+  </head>
+
+  <body class="bodyAsContainer">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar sticky-top navbar-expand justify-content-center">
+      <h2 class="navbar-brand">Menu</h2>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active m-1" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active m-1" href="../html/products.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active m-1" href="../html/contact.html">Contacto</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active m-1" href="../html/frequently_asked.html"
+            >Preguntas Frecuentes</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active m-1" href="../html/register.html">Registro</a>
+        </li>
       </ul>
-      
     </nav>
 
-    <main>
-      <h1>Productos</h1>
-      <!-- Se agrego un "<a>" por cada imagen, para que sean seleccionables y en un futuro
-         nos lleven a la descripcion de cada producto.
+    <main class=" ">
+      <h1 class="text-center">Productos</h1>
 
-         -Las imagenes fueron escaladas ya que tenian un tamaño demasiado grande -->
-      <div class="flexProductsContainer">
-        <div class="flexProductsChildDiv">
-          <a class="imageLinkContainer" href=""
-            ><img src="../img/pexels-math-90946.jpg" alt="camara de fotos"
-          /></a>
+      <hr />
 
-          <a class="imageLinkContainer" href=""
-            ><img
-              src="../img/photo-1502096472573-eaac515392c6.jpg"
-              alt="celular"
-          /></a>
-          <a  class="imageLinkContainer" href=""
-            ><img
-              src="../img/photo-1505740420928-5e560c06d30e.jpg"
-              alt="audifonos"
-          /></a>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="card m-1" style="width: 18rem">
+            <img class="card-img-top" src="../img/pexels-math-90946.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore dolorem obcaecati at nemo est voluptates. Magni, nam
+                alias. Dignissimos odio perspiciatis reiciendis, impedit fugiat
+                possimus iure minima vel itaque adipisci..
+              </p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+          </div>
+
+          <div class="card m-1" style="width: 18rem">
+            <img class="card-img-top" src="../img/photo-1502096472573-eaac515392c6.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore dolorem obcaecati at nemo est voluptates. Magni, nam
+                alias. Dignissimos odio perspiciatis reiciendis, impedit fugiat
+                possimus iure minima vel itaque adipisci..
+              </p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+          </div>
+
+          <div class="card m-1" style="width: 18rem">
+            <img class="card-img-top" src="../img/photo-1505740420928-5e560c06d30e.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore dolorem obcaecati at nemo est voluptates. Magni, nam
+                alias. Dignissimos odio perspiciatis reiciendis, impedit fugiat
+                possimus iure minima vel itaque adipisci..
+              </p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div  class="flexProductsChildDiv">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="card m-1" style="width: 18rem">
+            <img class="card-img-top" src="../img/product-1.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore dolorem obcaecati at nemo est voluptates. Magni, nam
+                alias. Dignissimos odio perspiciatis reiciendis, impedit fugiat
+                possimus iure minima vel itaque adipisci..
+              </p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+          </div>
 
-          <a  class="imageLinkContainer" href=""><img src="../img/product-1.jpg" alt="mochila" /></a>
+          <div class="card m-1" style="width: 18rem">
+            <img class="card-img-top" src="../img/pexels-math-90946.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore dolorem obcaecati at nemo est voluptates. Magni, nam
+                alias. Dignissimos odio perspiciatis reiciendis, impedit fugiat
+                possimus iure minima vel itaque adipisci..
+              </p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+          </div>
 
-          <a  class="imageLinkContainer" href=""
-            ><img src="../img/pexels-math-90946.jpg" alt="camara de fotos"
-          /></a>
-          <a class="imageLinkContainer" href=""
-            ><img src="../img/pexels-math-90946.jpg" alt="camara de fotos"
-          /></a>
+          <div class="card m-1" style="width: 18rem">
+            <img class="card-img-top" src="../img/pequeño_pollo.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore dolorem obcaecati at nemo est voluptates. Magni, nam
+                alias. Dignissimos odio perspiciatis reiciendis, impedit fugiat
+                possimus iure minima vel itaque adipisci..
+              </p>
+              <a href="#" class="btn btn-primary">Ir al producto</a>
+            </div>
+          </div>
         </div>
       </div>
     </main>
-    <!-- footer -->
-    <footer class="upDownBorders">
-      <div class="whiteText footerAlignment">
-        <span>Creado por Hernan Escudero | </span>
-        <span> 2022 |</span>
-        <span> Para Coderhouse.</span>
+
+    <footer class="d-flex flex-row h-75">
+      <div class="col d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-muted"
+          >Creado por Hernan Escudero |
+        </span>
+        <span class="mb-3 mb-md-0 text-muted"> 2022 |</span>
+        <span class="mb-3 mb-md-0 text-muted"> Para Coderhouse.</span>
       </div>
     </footer>
   </body>
