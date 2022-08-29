@@ -1,0 +1,18 @@
+.btn,
+.card {
+  position: relative;
+  top: 0;
+  transition: 0.3s;
+
+  &:hover {
+    top: -4px;
+  }
+}
+
+.btn {
+  transition: box-shadow 0.5s;
+
+  &:hover {
+    box-shadow: 0px 0px 10px rgb(245, 223, 30);
+  }
+}

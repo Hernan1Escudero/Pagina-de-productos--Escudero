@@ -1,0 +1,14 @@
+
+ @import "variables";
+ 
+ footer {
+    grid-area: footer;
+    background-color: $genericB;
+    width: $full;
+    height: $fullPx;
+    margin-top: 5%;
+    min-height: 50px;
+    max-height: $fullPx;
+    color: white;
+    clear:both;
+  }
