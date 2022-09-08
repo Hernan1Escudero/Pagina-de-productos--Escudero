@@ -21,11 +21,9 @@
 }
 
 
-.btn{
-  @extend .nonSelected;
-  
-}
+
 .btn {
+  @extend .nonSelected;
   color: white;
   transition: box-shadow 0.5s;
 
