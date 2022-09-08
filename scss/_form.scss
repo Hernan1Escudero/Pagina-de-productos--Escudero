@@ -3,3 +3,10 @@ form {
     animation-duration: 2s;
     animation-iteration-count: 1;
   }
+
+
+  .form-control:focus{
+background-color: grey;
+color: white;
+
+  }

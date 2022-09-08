@@ -11,15 +11,15 @@
 @import "nav";
 @import "main";
 @import "variables";
+@import "mixin";
 
 /* GRIDGLOBAL (este es el grid que estructura toda la pagina) LA MEDIA QUERY ESTA AL FIAL DEL ARCHIVO*/
 
 body {
-  min-height: 100vh;
+  @include bodyParams (100vh,(radial-gradient(circle, $generic 6%, rgb(208, 221, 231) 90%)),("Montserrat", sans-serif))
+    
   
-
-  background: radial-gradient(circle, $generic 6%, rgb(208, 221, 231) 90%);
-  font-family: "Montserrat", sans-serif;
+ 
 
   
 }
