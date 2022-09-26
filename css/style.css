@@ -3,27 +3,6 @@
   margin: 0;
   padding: 0; }
 
-.btn,
-.card {
-  position: relative;
-  top: 0;
-  transition: 0.3s; }
-  .btn:hover,
-  .card:hover {
-    top: -4px; }
-
-.nonSelected, .btn {
-  background-color: grey; }
-  .nonSelected:hover, .btn:hover {
-    background-color: #007bff; }
-
-.btn {
-  color: white;
-  transition: box-shadow 0.5s; }
-  .btn:hover {
-    box-shadow: 0px 0px 10px #63a8bd;
-    color: white; }
-
 footer {
   grid-area: footer;
   background-color: #141414;
@@ -37,7 +16,7 @@ footer {
 
 form {
   animation-name: animationSection;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1; }
 
 .form-control:focus {
@@ -49,6 +28,32 @@ nav {
   margin-bottom: 2%;
   background-color: #141414;
   color: white; }
+
+.navContainer {
+  position: sticky;
+  z-index: 1;
+  top: 0; }
+
+.NavLabel {
+  background-color: aliceblue; }
+
+.navbar-brand {
+  color: black;
+  margin-left: 10%; }
+
+.container {
+  margin-top: 10px; }
+
+.menuicon {
+  color: black; }
+
+@media (max-width: 1000px) {
+  ul {
+    display: flex;
+    flex-direction: column; }
+  .navContainer {
+    position: static;
+    top: 0; } }
 
 main {
   grid-area: main;
@@ -76,6 +81,59 @@ main {
     margin-top: 1%;
     margin-bottom: 1%; }
 
+.productsGrid {
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "one two three " "four five six ";
+  gap: 0;
+  align-content: center;
+  justify-items: center;
+  justify-content: center; }
+
+.null, .One, .cardTwo, .cardThree, .cardFour, .cardFive, .cardSix {
+  margin: 0;
+  padding: 0; }
+
+.One {
+  grid-area: one; }
+
+.cardTwo {
+  grid-area: two; }
+
+.cardThree {
+  grid-area: three; }
+
+.cardFour {
+  grid-area: four; }
+
+.cardFive {
+  grid-area: five; }
+
+.cardSix {
+  grid-area: six; }
+
+.card {
+  position: relative;
+  top: 0;
+  transition: 0.3s; }
+  .card:hover {
+    top: -4px; }
+
+.nonSelected, .btn {
+  background-color: grey; }
+  .nonSelected:hover, .btn:hover {
+    background-color: #007bff !important;
+    color: white !important; }
+
+.btn {
+  color: white;
+  transition: box-shadow 0.5s;
+  margin-top: 1%; }
+  .btn:hover {
+    box-shadow: 0px 0px 10px #63a8bd; }
+
 /* GRIDGLOBAL (este es el grid que estructura toda la pagina) LA MEDIA QUERY ESTA AL FIAL DEL ARCHIVO*/
 body {
   min-height: 100vh;
@@ -90,6 +148,8 @@ body {
 
 @keyframes animationSection {
   0% {
-    opacity: 0; }
+    opacity: 10%; }
+  50% {
+    opacity: 80%; }
   100% {
     opacity: 100%; } }

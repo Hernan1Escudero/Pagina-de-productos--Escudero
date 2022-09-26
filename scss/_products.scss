@@ -1,0 +1,50 @@
+   @import "maps";
+    .productsGrid{
+       
+         height: auto;
+    display: grid;
+     grid-template-rows: 1fr auto auto ;
+     grid-template-columns: auto auto auto;
+    
+    grid-template-areas: 
+    "one two three "
+    "four five six "
+    ;
+    gap: 0;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.null{
+    margin: 0;
+    padding: 0;
+    
+}
+.One{
+    grid-area:one ;
+    @extend .null
+}
+
+.cardTwo{
+    grid-area:two ;
+    @extend .null;
+}
+.cardThree{
+    grid-area:three ;
+    @extend .null;
+}
+.cardFour{
+    grid-area:four ;
+    @extend .null;
+}
+.cardFive{ 
+    grid-area:five;
+    @extend .null;
+
+ 
+}
+   .cardSix{
+        grid-area:six ;
+       @extend .null;
+    }
