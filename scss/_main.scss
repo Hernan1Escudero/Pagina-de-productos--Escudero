@@ -35,3 +35,13 @@ main {
     }
   
   }
+
+
+  @media (max-width:900px) {
+    
+    .flexOnQuery{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+ 

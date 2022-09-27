@@ -48,3 +48,49 @@
         grid-area:six ;
        @extend .null;
     }
+
+
+    @media (max-width: 1000px){
+        .productsGrid{
+       
+            height: auto;
+       display: grid;
+        grid-template-rows: 1fr auto ;
+        grid-template-columns: auto auto ;
+       
+       grid-template-areas: 
+       "one two  "
+       "three four"
+       " five six "
+       ;
+       gap: 0;
+       align-content: center;
+       justify-items: center;
+       justify-content: center;
+        }
+    
+    }
+
+    @media (max-width: 681px){
+        .productsGrid{
+       
+            height: auto;
+       display: grid;
+        grid-template-rows: 1fr  ;
+        grid-template-columns: auto  ;
+       
+       grid-template-areas: 
+       "one  "
+       "two"
+       "three" 
+       "four"
+       " five"
+       " six "
+       ;
+       gap: 0;
+       align-content: center;
+       justify-items: center;
+       justify-content: center;
+        }
+    
+    }
