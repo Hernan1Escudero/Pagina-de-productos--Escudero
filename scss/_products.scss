@@ -21,6 +21,11 @@
     padding: 0;
     
 }
+
+.card{
+    box-shadow: 1px 1px grey, 0em 0 .5em gray;
+}
+
 .One{
     grid-area:one ;
     @extend .null

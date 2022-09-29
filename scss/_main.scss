@@ -6,11 +6,15 @@ main {
   
   section {
       box-sizing: border-box;
+      
     }
   
     img {
       width: 300px;
       height: 300px;
+      max-width: 290px;
+      max-height: 290px;
+
       object-fit: cover;
   
       .imageChicken {
@@ -35,6 +39,22 @@ main {
     }
   
   }
+
+  .withBackground{
+    background-image: url(../img/hd-wallpaper-g94b6152dc_1920.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+.secondBackground{
+
+  
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+   
+  }
+
 
 
   @media (max-width:900px) {
